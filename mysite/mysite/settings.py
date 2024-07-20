@@ -118,6 +118,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_HOST_USER = 'ingenierocivil.jmm@outlook.com'
+EMAIL_HOST_PASSWORD = '3126348553EdilmaVergara##89'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
