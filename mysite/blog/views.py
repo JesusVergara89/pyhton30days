@@ -7,16 +7,22 @@ from . forms import EmailPostForm
 from django.core.mail import send_mail
 from .forms import EmailPostForm, CommentForm
 from django.views.decorators.http import require_POST
+from taggit.models import Tag
+from django.db.models import Count
 
-class PostListView(ListView):
-    queryset = Post.published.all()
-    context_object_name = 'posts'
-    paginate_by = 3
-    template_name = 'blog/post/list.html' #this replace (1)
+#class PostListView(ListView):
+#    queryset = Post.published.all()
+#    context_object_name = 'posts'
+#    paginate_by = 3
+#    template_name = 'blog/post/list.html' #this replace (1)
     
-"""this is (1) the explanation is in the book in the page 36
-def post_list(request):
+#this is (1) the explanation is in the book in the page 36
+def post_list(request, tag_slug=None):
     post_list = Post.published.all()
+    tag=None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        post_list = post_list.filter(tag__in=[tag])
     paginator = Paginator(post_list, 3)
     page_number = request.GET.get('page', 1)
     try:
@@ -24,9 +30,8 @@ def post_list(request):
     except EmptyPage:
         post = paginator.page(paginator.num_pages)
     except PageNotAnInteger:
-        post = paginator.page(1)
-        
-    return render(request, 'blog/post/list.html', {'posts': post})"""
+        post = paginator.page(1)     
+    return render(request, 'blog/post/list.html', {'posts': post, 'tag': tag})
 
 def post_detail(request, year, month,day, post):
     """
@@ -50,8 +55,13 @@ def post_detail(request, year, month,day, post):
         raise Http404("No post found.")
     comments = post.comments.filter(active=True)
     form = CommentForm()
+    post_tags_ids = post.tag.values_list('id', flat=True)
+    similar_post = Post.published.filter(tag__in=post_tags_ids)\
+                                 .exclude(id=post.id)
+    similar_post = similar_post.annotate(same_tags=Count('tag'))\
+                            .order_by('-same_tags', '-publish')[:4]
     #inste of putting the try except block we can use a get_object_or_404(Post, id = id, status=Post.status.published)
-    return render(request, 'blog/post/detail.html', {'post': post, 'comments': comments, 'form': form})
+    return render(request, 'blog/post/detail.html', {'post': post, 'comments': comments, 'form': form, 'similar_post': similar_post})
 
 
 def post_share(request, post_id):
