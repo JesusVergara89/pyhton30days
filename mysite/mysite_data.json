@@ -1,0 +1,1008 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-07-20T00:28:56.836Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "article1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-07-20T01:39:45.556Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "article1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-07-20T13:21:04.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Second post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-07-20T13:38:43.720Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Tecnología: El Futuro de la Inteligencia Artificial",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-20T13:39:13.237Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Salud: Beneficios del Ejercicio Regular",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-20T13:39:45.779Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Cocina: Receta de Tacos de Pescado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-20T13:40:06.764Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Viajes: Descubriendo Tokio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-20T13:40:43.912Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Ciencia: La Importancia de la Biodiversidad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-20T13:41:18.342Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Educación: Métodos Efectivos de Estudio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-20T13:41:37.583Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Finanzas: Cómo Ahorrar Dinero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-20T13:41:55.422Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Moda: Tendencias de Moda para el 2024",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-20T13:42:14.836Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Deportes: Preparación para una Maratón",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-20T13:42:30.530Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Cultura: Historia del Arte Renacentista",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-20T19:02:14.019Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Ciencia: La Importancia de la Biodiversidad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-20T20:05:42.337Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Salud: Beneficios del Ejercicio Regular",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-20T20:07:41.282Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Salud: Beneficios del Ejercicio Regular",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-20T20:08:23.929Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Salud: Beneficios del Ejercicio Regular",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-20T20:13:52.921Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Salud: Beneficios del Ejercicio Regular",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$eCowWWlcvs7hjGaJqIbgpo$lLrKvwamXWhYEk7KDn0nVkgbeVT4gBUtj1+x7E+jI1A=",
+    "last_login": "2024-07-20T00:09:07.562Z",
+    "is_superuser": true,
+    "username": "jesusvergara",
+    "first_name": "",
+    "last_name": "",
+    "email": "jesusmanuelv1989@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-20T00:06:00.665Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m1qbfi58yz8v18v9um2j2ogxan4vmivd",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSGDl1_K9D4DYlkITiKQjF1FuXtsyUXSzsx7b-bDtha_9bT4mdiVCXb5ZRjiM9VD0CPUe-Ox1XWZkR8JP23nU6P0up3t30EJvezrgSRZGh2BcCmqmCXgDjSSIaWtMdJmcBIFCjcKGTIMiCNYIa0inYB9vuvxN6w:1sUxet:6DVJm5vx4qd0zOmC2lwOpU8bdyvAWRJfxu8AxK_e5co",
+    "expire_date": "2024-08-03T00:09:07.570Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "article1",
+    "slug": "article-example",
+    "author": 1,
+    "body": "thsi si the body",
+    "publish": "2024-07-20T00:28:33Z",
+    "created": "2024-07-20T00:28:56.834Z",
+    "updated": "2024-07-20T01:39:45.553Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Second post",
+    "slug": "second-post",
+    "author": 1,
+    "body": "Las baterías de litio, también conocidas como baterías de ion de litio, son una tecnología de almacenamiento de energía recargable ampliamente utilizada en dispositivos electrónicos portátiles, vehículos eléctricos y sistemas de almacenamiento de energía. Aquí se explica cómo funcionan:",
+    "publish": "2024-07-20T13:20:09Z",
+    "created": "2024-07-20T13:21:04.263Z",
+    "updated": "2024-07-20T13:21:04.263Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Tecnología: El Futuro de la Inteligencia Artificial",
+    "slug": "tecnologia-el-futuro-de-la-inteligencia-artificial",
+    "author": 1,
+    "body": "La inteligencia artificial (IA) está transformando el mundo a una velocidad vertiginosa. Desde la automatización de tareas rutinarias hasta el desarrollo de tecnologías de aprendizaje profundo, la IA promete cambiar la manera en que vivimos y trabajamos. En este post, exploramos las tendencias actuales y futuras de la IA, así como sus posibles impactos en diferentes industrias.",
+    "publish": "2024-07-20T13:37:10Z",
+    "created": "2024-07-20T13:38:43.718Z",
+    "updated": "2024-07-20T13:38:43.718Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Salud: Beneficios del Ejercicio Regular",
+    "slug": "salud-beneficios-del-ejercicio-regular",
+    "author": 1,
+    "body": "## titile h2\r\nEl ejercicio regular no solo mejora tu condición física, sino que también tiene numerosos beneficios para tu salud mental y emocional. **Desde** la reducción del riesgo de enfermedades crónicas hasta la mejora de la calidad del sueño y el estado de ánimo, *este post te ofrece* una visión* completa de por qué deberías incorporar el ejercicio en tu rutina diaria.",
+    "publish": "2024-07-20T13:38:45Z",
+    "created": "2024-07-20T13:39:13.235Z",
+    "updated": "2024-07-20T20:13:52.916Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Cocina: Receta de Tacos de Pescado",
+    "slug": "cocina-receta-de-tacos-de-pescado",
+    "author": 1,
+    "body": "Los tacos de pescado son una delicia mexicana que combina sabores frescos y vibrantes. En este post, te compartimos una receta sencilla para preparar tacos de pescado al estilo Baja California, con una mezcla de ingredientes que incluye pescado fresco, repollo crujiente y una salsa cremosa de mayonesa y limón.",
+    "publish": "2024-07-20T13:39:14Z",
+    "created": "2024-07-20T13:39:45.777Z",
+    "updated": "2024-07-20T13:39:45.777Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Viajes: Descubriendo Tokio",
+    "slug": "viajes-descubriendo-tokio",
+    "author": 1,
+    "body": "Tokio, la capital de Japón, es una ciudad que fusiona la modernidad con la tradición. Desde rascacielos imponentes hasta templos históricos, Tokio ofrece una experiencia única para los viajeros. En esta guía, te mostramos los principales lugares que no puedes perderte, consejos de viaje y recomendaciones para disfrutar al máximo tu visita a esta fascinante ciudad.",
+    "publish": "2024-07-20T13:39:47Z",
+    "created": "2024-07-20T13:40:06.762Z",
+    "updated": "2024-07-20T13:40:06.762Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Ciencia: La Importancia de la Biodiversidad",
+    "slug": "ciencia-la-importancia-de-la-biodiversidad",
+    "author": 1,
+    "body": "La biodiversidad es esencial para el equilibrio y la salud de los ecosistemas. Este post explora la importancia de la biodiversidad, las amenazas que enfrenta debido a la actividad humana y las medidas que podemos tomar para protegerla. Aprender sobre la biodiversidad nos ayuda a comprender mejor nuestro papel en la conservación del planeta.",
+    "publish": "2024-07-20T13:40:14Z",
+    "created": "2024-07-20T13:40:43.909Z",
+    "updated": "2024-07-20T19:02:14.012Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Educación: Métodos Efectivos de Estudio",
+    "slug": "educacion-metodos-efectivos-de-estudio",
+    "author": 1,
+    "body": "Estudiar de manera efectiva puede marcar la diferencia en tus resultados académicos. En este post, te presentamos cinco métodos probados para mejorar tu estudio, incluyendo técnicas de organización, estrategias de memorización y la importancia de tomar descansos regulares. ¡Optimiza tu tiempo de estudio y alcanza tus metas académicas!",
+    "publish": "2024-07-20T13:41:05Z",
+    "created": "2024-07-20T13:41:18.339Z",
+    "updated": "2024-07-20T13:41:18.339Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Finanzas: Cómo Ahorrar Dinero",
+    "slug": "finanzas-como-ahorrar-dinero",
+    "author": 1,
+    "body": "Ahorrar dinero puede parecer un desafío, pero con las estrategias correctas, es posible alcanzar tus objetivos financieros. Este post te ofrece siete consejos prácticos para ahorrar dinero, desde la creación de un presupuesto hasta la búsqueda de ofertas y descuentos. ¡Empieza a ahorrar hoy y construye un futuro financiero más sólido!",
+    "publish": "2024-07-20T13:41:24Z",
+    "created": "2024-07-20T13:41:37.580Z",
+    "updated": "2024-07-20T13:41:37.580Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Moda: Tendencias de Moda para el 2024",
+    "slug": "moda-tendencias-de-moda-para-el-2024",
+    "author": 1,
+    "body": "El mundo de la moda está en constante evolución, y el 2024 no será la excepción. En este post, exploramos las tendencias más destacadas que veremos este año, desde colores vibrantes hasta estilos retro y sostenibles. Descubre cómo puedes incorporar estas tendencias en tu guardarropa y mantenerte a la vanguardia de la moda.",
+    "publish": "2024-07-20T13:41:39Z",
+    "created": "2024-07-20T13:41:55.419Z",
+    "updated": "2024-07-20T13:41:55.419Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "Deportes: Preparación para una Maratón",
+    "slug": "deportes-preparacion-para-una-maraton",
+    "author": 1,
+    "body": "Correr una maratón es un desafío físico y mental que requiere una preparación adecuada. En este post, te ofrecemos una guía completa sobre cómo prepararte para una maratón, incluyendo planes de entrenamiento, consejos de nutrición y estrategias para el día de la carrera. ¡Prepárate y cruza la línea de meta con confianza!",
+    "publish": "2024-07-20T13:41:57Z",
+    "created": "2024-07-20T13:42:14.833Z",
+    "updated": "2024-07-20T13:42:14.833Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Cultura: Historia del Arte Renacentista",
+    "slug": "cultura-historia-del-arte-renacentista",
+    "author": 1,
+    "body": "El Renacimiento fue una época de gran esplendor artístico y cultural que marcó el final de la Edad Media y el inicio de la Edad Moderna. Este post te lleva en un viaje a través de la historia del arte renacentista, explorando sus características, principales exponentes y obras más emblemáticas. Conoce cómo esta corriente artística revolucionó el mundo del arte y la cultura.",
+    "publish": "2024-07-20T13:42:16Z",
+    "created": "2024-07-20T13:42:30.527Z",
+    "updated": "2024-07-20T13:42:30.527Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 8,
+    "name": "jesus manuel",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "Goog post",
+    "created": "2024-07-20T17:10:22.211Z",
+    "updated": "2024-07-20T17:10:22.211Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 12,
+    "name": "jesus vergara",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "Amazing!!!!!",
+    "created": "2024-07-20T17:12:02.815Z",
+    "updated": "2024-07-20T17:12:02.815Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 12,
+    "name": "jesus vergara",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "Amazing!!!!!",
+    "created": "2024-07-20T17:13:43.548Z",
+    "updated": "2024-07-20T17:13:43.548Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 12,
+    "name": "jesus vergara",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "Amazing!!!!!",
+    "created": "2024-07-20T17:15:08.730Z",
+    "updated": "2024-07-20T17:15:08.730Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 12,
+    "name": "jesus vergara",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "test4",
+    "created": "2024-07-20T17:15:26.749Z",
+    "updated": "2024-07-20T17:15:26.749Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 12,
+    "name": "jesus vergara",
+    "email": "jesusmanuelv1989@gmail.com",
+    "body": "test5",
+    "created": "2024-07-20T17:16:10.204Z",
+    "updated": "2024-07-20T17:16:10.204Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "djano",
+    "slug": "djano"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+}
+]
