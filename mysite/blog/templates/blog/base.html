@@ -2,23 +2,31 @@
 {% load blog_tags %}
 <!DOCTYPE html>
 <html>
+
 <head>
- <title>{% block title %}{% endblock %}</title>
- <link href="{% static "css/blog.css" %}" rel="stylesheet">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
 </head>
+
 <body>
- <div id="content">
- {% block content %}
- {% endblock %}
- </div>
- <div id="sidebar">
- <h2>My blog</h2>
- <p>
-    This is my blog.
-    i've written {% total_post %} post so far
-</p>
-<h3>Latest post</h3>
-{% show_latest_post 7 %}
- </div>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="sidebar">
+        <h2>My blog</h2>
+        <p>
+            This is my blog.
+            i've written {% total_post %} post so far
+        </p>
+        <p>
+            <a href="{% url 'blog:post_feed' %}">
+                Subscribe to my RSS feed
+            </a>
+        </p>
+        <h3>Latest post</h3>
+        {% show_latest_post 7 %}
+    </div>
 </body>
+
 </html>
