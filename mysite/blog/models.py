@@ -26,6 +26,7 @@ class Post(models.Model):
                               choices=Status.choices,
                               default=Status.DRAF)
     
+    
     tag = TaggableManager()
     objects = models.Manager() # The default manager.
     published = PublishedManager() # Our custom manager.
